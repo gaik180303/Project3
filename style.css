@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0f4f8;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 90%;
+  max-width: 500px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.input-group {
+  margin-bottom: 30px;
+}
+
+input[type="datetime-local"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.time-box {
+  background: #ecf0f1;
+  padding: 15px;
+  border-radius: 10px;
+  width: 80px;
+}
+
+.time-box span {
+  font-size: 28px;
+  display: block;
+  font-weight: bold;
+}
+
+.time-box small {
+  font-size: 14px;
+  color: #666;
+}
+
+#message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #e74c3c;
+}
